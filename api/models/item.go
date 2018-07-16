@@ -15,7 +15,7 @@ type Item struct {
 	UpdatedAt  time.Time `json:"updated_at" db:"updated_at"`
 	Alias      string    `json:"alias" db:"alias"`
 	Title      string    `json:"title" db:"title"`
-	Desc       string    `json:"desc" db:"desc"`
+	Desc       string    `json:"desc" db:"descr"`
 	Pictures   string    `json:"pictures" db:"pictures"`
 	Price      int       `json:"price" db:"price"`
 	Count      int       `json:"count" db:"count"`
